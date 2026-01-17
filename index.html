@@ -486,6 +486,127 @@
                 width: 100%;
             }
         }
+@media (max-width: 600px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    header {
+        position: static;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 12px;
+        padding: 10px 0;
+    }
+
+    .logo {
+        font-size: 20px;
+        justify-content: center;
+    }
+
+    .container {
+        padding: 0 12px;
+        width: 100%;
+    }
+
+    /* HERO */
+    .french-hero {
+        padding: 80px 0 40px;
+        text-align: center;
+    }
+
+    .hero-title {
+        font-size: 22px;
+        line-height: 1.2;
+    }
+
+    .hero-subtitle {
+        font-size: 14px;
+    }
+
+    .hero-text {
+        font-size: 13px;
+        margin-bottom: 25px;
+    }
+
+    .french-btn {
+        width: 100%;
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    /* ALPHABET */
+    .alphabet-grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 8px;
+        justify-items: center;
+    }
+
+    .letter-card {
+        width: 50px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    /* NUMBERS */
+    .numbers-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    /* VOCAB */
+    .vocabulary-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .vocab-card {
+        padding: 20px;
+    }
+
+    /* VERBS TABLE — TELEFONDA SCROLL */
+    .verbs-section {
+        padding: 60px 0;
+    }
+
+    .verbs-table {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        font-size: 12px;
+        white-space: nowrap;
+    }
+
+    /* GRAMMAR */
+    .grammar-cards {
+        grid-template-columns: 1fr;
+    }
+
+    /* DIALOG */
+    .dialogue-container {
+        padding: 20px;
+    }
+
+    /* PRACTICE */
+    .exercise-options {
+        grid-template-columns: 1fr;
+    }
+
+    /* CULTURE */
+    .culture-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* FOOTER */
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        text-align: center;
+    }
+}
+
     </style>
 </head>
 <body>
